@@ -1,9 +1,9 @@
 
 import { combineReducers } from 'redux';
-import gameState, * as fromGame from './GameReducer';
+import game from './GameReducer';
 
 export default combineReducers({
-  gameState,
+  game,
 });
 
 // export const getGameStateFromStore = state => fromGame.getGameStateFromStore(state.game);
